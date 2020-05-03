@@ -1,0 +1,82 @@
+{
+	"breadcrumbs.enabled": false,
+
+	"editor.folding": false,
+	"editor.minimap.enabled": false,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.snippetSuggestions": "top",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnType": true,
+	"editor.formatOnSave": true,
+	"editor.acceptSuggestionOnEnter": "on",
+	"editor.renameOnType": false,
+	"editor.insertSpaces": false,
+	"editor.quickSuggestions": false,
+	"editor.parameterHints": false,
+	"editor.suggestOnTriggerCharacters": false,
+
+	"explorer.compactFolders": false,
+	"explorer.decorations.colors": false,
+	"explorer.confirmDragAndDrop": false,
+
+	"extensions.ignoreRecommendations": true,
+
+	"files.associations": {
+		"*.mjml": "html"
+	},
+	"files.insertFinalNewline": true,
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 1000,
+	"files.exclude": {
+		"**/node_modules": true,
+		"**/package-lock.json": true,
+		// "**/.gitignore": true,
+		"**/.tmp.drivedownload": true,
+		"**/desktop.ini": true
+	},
+
+	"git.ignoreLimitWarning": true,
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"git.autofetch": true,
+	"git.decorations.enabled": true,
+
+	"highlight.regexes": {
+		"(//|<!--|;|#)( ?TODO)( ?:?.*)": [
+			{
+				"backgroundColor": "#ffcc00",
+				"color": "#1f1f1f"
+			},
+			{
+				"backgroundColor": "#ffcc00",
+				"color": "#1f1f1f",
+				"fontWeight": "bold"
+			},
+			{
+				"backgroundColor": "#ffcc00",
+				"color": "#1f1f1f"
+			}
+		]
+	},
+
+	"javascript.updateImportsOnFileMove.enabled": "never",
+	"material-icon-theme.folders.color": "#90A4AE",
+	"material-icon-theme.hidesExplorerArrows": false,
+	"material-icon-theme.folders.theme": "none",
+
+	"prettier.configPath": ".vscode/.prettierrc",
+
+	"window.title": "${rootName}${separator}${activeEditorMedium}",
+	"window.zoomLevel": 0,
+
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "One Dark Pro",
+	"workbench.editor.showTabs": true,
+	"workbench.statusBar.visible": true,
+	"workbench.editor.enablePreview": true,
+	"workbench.editor.enablePreviewFromQuickOpen": true,
+	"workbench.editor.focusRecentEditorAfterClose": false,
+	"workbench.list.openMode": "singleClick",
+	"workbench.tree.indent": 20,
+	"workbench.editor.labelFormat": "short"
+}

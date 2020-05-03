@@ -1,0 +1,20 @@
+[
+	{
+		"key": "ctrl+d",
+		"command": "editor.action.deleteLines",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "shift+ctrl+y",
+		"command": "editor.action.transformToLowercase"
+	},
+	{
+		"key": "shift+ctrl+x",
+		"command": "editor.action.transformToUppercase"
+	},
+	{
+		"key": "shift+ctrl+c",
+		"command": "editor.action.commentLine",
+		"when": "editorTextFocus && !editorReadonly"
+	}
+]
