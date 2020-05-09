@@ -8,6 +8,9 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnType": true,
 	"editor.formatOnSave": true,
+	"[yaml]": {
+		"editor.formatOnSave": false
+	},
 	"editor.acceptSuggestionOnEnter": "on",
 	"editor.renameOnType": false,
 	"editor.insertSpaces": false,
