@@ -1,11 +1,9 @@
 {
 	"recommendations": [
-		"MS-CEINTL.vscode-language-pack-fr", //
-		"PKief.material-icon-theme",
+		"PKief.material-icon-theme", //
 		"zhuangtongfa.material-theme",
 		"esbenp.prettier-vscode",
 		"eamodio.gitlens",
-		"ms-vscode-remote.remote-wsl",
 		"fabiospampinato.vscode-highlight",
 		"tomoki1207.pdf"
 	]
