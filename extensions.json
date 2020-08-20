@@ -5,6 +5,7 @@
 		"esbenp.prettier-vscode",
 		"eamodio.gitlens",
 		"fabiospampinato.vscode-highlight",
-		"tomoki1207.pdf"
+		"tomoki1207.pdf",
+		"softwaredotcom.swdc-vscode"
 	]
 }
