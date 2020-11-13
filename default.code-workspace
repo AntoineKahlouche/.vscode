@@ -1,0 +1,162 @@
+{
+	"folders": [
+		{ "name": "⭐", "path": "../.vscode" },
+
+		{ "name": "🔴 FRONTEND", "path": "../r4ce-frontend" },
+		{ "name": "🔵 BACKEND", "path": "../r4ce-backend" },
+		{ "name": "⚫ WORKSPACE", "path": "../r4ce-workspace" }
+		// { "name": "⚪ ENVIRONMENT", "path": "../r4ce-prod" },
+		// { "name": "🟢 BATCH", "path": "../r4ce-batch" },
+		// { "name": "🟡 MAP", "path": "../r4ce-map" },
+		// { "name": "R4CE", "path": "../r4ce" },
+		// { "name": "Code", "path": ".." }
+	],
+	"extensions": {
+		"recommendations": [
+			"formulahendry.auto-close-tag", //
+			"softwaredotcom.swdc-vscode",
+			"msjsdiag.debugger-for-chrome",
+			"ms-azuretools.vscode-docker",
+			"mikestead.dotenv",
+			"codezombiech.gitignore",
+			"fabiospampinato.vscode-highlight",
+			"oshri6688.javascript-test-runner",
+			"ritwickdey.LiveServer",
+			"PKief.material-icon-theme",
+			"mongodb.mongodb-vscode",
+			"zhuangtongfa.material-theme",
+			"esbenp.prettier-vscode",
+			"humao.rest-client",
+			"fabiospampinato.vscode-todo-plus",
+			"octref.vetur",
+			"tomoki1207.pdf",
+			"redhat.vscode-yaml"
+		]
+	},
+	"launch": {
+		// https://code.visualstudio.com/docs/nodejs/debugging-recipes
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Docker",
+				"type": "node",
+				"request": "attach",
+				"port": 9229,
+				"address": "localhost",
+				"localRoot": "${workspaceFolder:🔵 BACKEND}",
+				"remoteRoot": "/app",
+				"protocol": "inspector",
+				"restart": true
+			},
+			{
+				"name": "Mocha",
+				"type": "node",
+				"request": "launch",
+				"stopOnEntry": false,
+				"program": "${workspaceFolder:🔵 BACKEND}/node_modules/mocha/bin/_mocha",
+				"cwd": "${workspaceFolder:🔵 BACKEND}",
+				"runtimeExecutable": null,
+				"args": ["${file}", "--no-timeout"]
+			}
+		]
+	},
+	"settings": {
+		"breadcrumbs.enabled": false,
+
+		"editor.folding": false,
+		"[todo]": {
+			"editor.folding": true
+		},
+		"editor.minimap.enabled": false,
+		"editor.multiCursorModifier": "ctrlCmd",
+		"editor.snippetSuggestions": "top",
+		"editor.formatOnType": true,
+		"editor.formatOnSave": true,
+		"editor.detectIndentation": false,
+		"editor.acceptSuggestionOnEnter": "on",
+		"editor.renameOnType": false,
+		"editor.insertSpaces": false,
+		"editor.quickSuggestions": true,
+		"editor.suggestOnTriggerCharacters": false,
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+		"explorer.compactFolders": false,
+		"explorer.decorations.colors": false,
+		"explorer.confirmDragAndDrop": false,
+		"explorer.confirmDelete": false,
+
+		"extensions.ignoreRecommendations": true,
+
+		"files.associations": {
+			"*.mjml": "html"
+		},
+		"files.insertFinalNewline": true,
+		"files.autoSave": "afterDelay",
+		"files.autoSaveDelay": 1000,
+		"files.exclude": {
+			// "**/.git*": true,
+			"**/node_modules": true,
+			"init.js": true,
+			"**/package-lock.json": true
+		},
+
+		"git.ignoreLimitWarning": true,
+		"git.enableSmartCommit": true,
+		"git.confirmSync": false,
+		"git.autofetch": true,
+		"git.decorations.enabled": false,
+
+		"highlight.regexes": {
+			"(//|<!--|;|#)( ?TODO)( ?:?.*)": [
+				{
+					"backgroundColor": "#ffcc00",
+					"color": "#1f1f1f"
+				},
+				{
+					"backgroundColor": "#ffcc00",
+					"color": "#1f1f1f",
+					"fontWeight": "bold"
+				},
+				{
+					"backgroundColor": "#ffcc00",
+					"color": "#1f1f1f"
+				}
+			]
+		},
+
+		"javascript.updateImportsOnFileMove.enabled": "never",
+
+		"material-icon-theme.hidesExplorerArrows": false,
+		"material-icon-theme.folders.theme": "none",
+
+		"mdb.sendTelemetry": false,
+		"mdb.confirmRunAll": false,
+
+		"prettier.printWidth": 999999,
+		"prettier.tabWidth": 4,
+		"prettier.useTabs": true,
+		"prettier.semi": false,
+		"prettier.singleQuote": false,
+		"prettier.trailingComma": "none",
+		"prettier.bracketSpacing": true,
+		"prettier.arrowParens": "avoid",
+
+		"todo.file.view.expanded": false,
+		"todo.timekeeping.finished.enabled": false,
+
+		"window.title": "${rootName}${separator}${activeEditorMedium}",
+		"window.zoomLevel": 1,
+
+		"workbench.iconTheme": "material-icon-theme",
+		"workbench.colorTheme": "One Dark Pro",
+		"workbench.editor.showTabs": true,
+		"workbench.statusBar.visible": true,
+		"workbench.editor.enablePreview": true,
+		"workbench.editor.enablePreviewFromQuickOpen": true,
+		"workbench.editor.focusRecentEditorAfterClose": false,
+		"workbench.list.openMode": "singleClick",
+		"workbench.tree.indent": 40,
+		"workbench.editor.labelFormat": "short",
+		"liveServer.settings.multiRootWorkspaceName": "Code"
+	}
+}

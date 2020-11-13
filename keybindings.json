@@ -16,5 +16,9 @@
 		"key": "shift+ctrl+c",
 		"command": "editor.action.commentLine",
 		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+alt+t",
+		"command": "workbench.action.terminal.toggleTerminal"
 	}
 ]

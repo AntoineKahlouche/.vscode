@@ -1,0 +1,442 @@
+- Alt + ↲ : Toggle Box
+- Alt + D : Toggle Done
+- Alt + C : Toggle Cancelled
+
+╔═══════════════════════════╗
+║	Semaine du 9 Novembre	║
+╚═══════════════════════════╝
+
+Préparation passage freelance:
+	☐ Retirer ancienne version de R4CE
+	☐ Deployer version Vue.js de R4CE
+	✔ MAJ LinkedIn
+	☐ Contacter recruteurs
+
+Finalisation:
+	✔ Head
+	✔ Title
+	✔ Favicon
+	☐ Bloquer acces non fini
+	☐ Orthographe
+	☐ Automatic deploy GH Actions + S3
+	☐ GA
+	☐ Peupler BDD : créer batch
+	
+╔═══════════════════════════╗
+║	Semaine du 16 Novembre	║
+╚═══════════════════════════╝
+
+Trouver une mission freelance:
+	☐ Contacter recruteurs sur LinkedIn
+	Créer compte sur platforme de freelancing:
+		☐ codementor.io
+		☐ codeur.com
+		☐ comet.co
+		☐ freelancer.com
+		☐ freelancerepublik.com
+		☐ honeypot.io
+		☐ malt.fr
+		☐ skillvalue.com
+		☐ toptal.com
+		☐ hidden.market
+		☐ fiverr.com
+		☐ upwork.com
+		☐ peopleperhour.com
+		☐ guru.com
+
+╔═══════════════════════════╗
+║	Semaine du ...			║
+╚═══════════════════════════╝	
+
+SASU:
+	- Stripe
+	- Assurance pro
+	- Comptable
+	- Avocat
+R4CE:
+	Event:
+		Update:
+			- GET update
+			- EventReview
+			- POST eventreview
+			- Ne pas supprimer les race (ajouter boolean deleted)
+		Apply:
+			- EventApply
+			- POST Apply
+		Admin:
+			- Claim
+			- POST Claim
+			- EventAdmin
+			- Stripe mlarketplace
+			- Stripe onboarding
+			- Configurer inscription en ligne
+			- Cloture inscription date
+			- Nombre de places
+			- CGV
+			- Virement bancaire Stripe
+			- Cancel apply
+			- Inscription en ligne
+			- Mail
+			- Event-update apply options
+			- Event-apply (ON / OFF, free or not)
+			- Mail invoice saved raw data in mongo
+			- Event-refund
+			- Event-update custom form attention doublon in name
+			- CGV [https://www.klikego.com/divers/CGV.pdf](https://www.klikego.com/divers/CGV.pdf)
+			- démo apply
+			- Je souhaite soutenir adrienmenielle en payant les frais de transaction
+			- stats
+		Landing:
+			✔ UI
+			- I18n
+			- Video presentation
+			- Editorial
+			- Mail info event promoter
+			- Lien vers page durée de réclamation
+			- Afficher le pourcentage d'inscriptions réussi
+			- Afficher le temps de résolution moyen d'une inscription en erreur
+		Review:
+			✔ Link from profile
+			✔ Page display older accessible by admin & lock
+			✔ Accept Refuse Spam with comment
+			- Mail with comment
+			- TU
+			- On claim → refuse all pending update
+			- Lock
+		Details:
+			Carte interactive:
+				- Tracé
+				- Ravitaillement
+				- AirBnB & Booking
+				- Map zoom > 11 For updating location
+		Service : Check-list:
+		Service : Dossard et étiquette:
+		Service : Easy check-in:
+			- QR code dans le mail d'inscription
+			- Accessible par l'organisateur
+			- Page de gestion personnes autorisées à accéder aux informations de l'inscription
+		Service : Formulaire inscription intégrable:
+			- Pour le site des grands évènements
+			- Iframe
+			- API
+		Service : website personalisé:
+			- tout en un pour les épreuves sportives
+			- checklist accompagnement création événement
+			- inscription
+			- gestion inscrits
+			- bénéficier d'un site professionnel sans prise de tête
+			- site w3c, mobile, accessible
+			- tester avant de payer
+			- snippets pour le référencement
+			- Seo
+			- statistiques de fréquentation
+			- reprendre la main sur les données communautaires
+			- une carte pour ajouter des lieux et des tracés
+			- maj régulières
+			- les problèmes/améliorations remonté profitent à tous
+			- Dns
+			- accompagnement pour un email dédié
+			- serveur performant
+			- équipe qui travaille constamment a améliorer le produit
+			- de meilleurs performances pour une meilleur conversion
+			- multilingue
+			- compte à rebours
+			- validation liscence par FFtri et FFA
+		Service : photos en ligne:
+		Service : résultats en ligne:
+	Optimization:
+		- No external CDN
+		- Retirer moment.js
+		- Send global mail
+		- Dark thème
+		- Tester services
+		✔ Log in mongo.db
+		- MJML mj-social
+		✔ Icons
+		- Incitation au partage avant de quitter (avec case ne plus afficher)
+		- CDN for vector tiles
+		- Auth rate & express-rate-limit
+		Balises META:
+			- Facebook
+			- Twitter
+			- Balises SEO
+		Mongoose index:
+			- https://mongoosejs.com/docs/guide.html#indexes
+		Test:
+			- https://www.ssllabs.com/index.html
+			- https://www.mail-tester.com/
+			- https://validator.w3.org/
+			- https://developers.google.com/speed/pagespeed/insights/?hr=fr
+			- https://search.google.com/structured-data/testing-tool/u/0/?hl=fr
+			- https://search.google.com/test/amp?hl=fr#
+			- https://www.thinkwithgoogle.com/intl/fr-fr/feature/testmysite/
+			- https://search.google.com/test/mobile-friendly?hl=fr
+			- https://www.codeur.com/blog/outils-tester-emails/
+			- https://www.clickback.com/blog/email-open-rate-benchmarks/
+			- https://www.entrepreneur.com/article/240454
+			- https://www.codeur.com/blog/ecommerce-emails-de-bienvenue/
+			- https://developers.google.com/speed/pagespeed/insights/
+		Checklist:
+			- https://github.com/thedaviddias/Front-End-Checklist
+			- https://hackernoon.com/web-accessibility-checklist-for-your-project-cyco3yu3
+		DNS [...].r4ce.co:
+			- <empty>
+			- tiles
+			- api
+			- mongo.slave
+			- mongo.master
+			- redis
+		Gamification:
+			- Badges et PR dans profil
+			- Public profile
+		DDOS:
+			- https://www.noobunbox.net/serveur/securite/bloquer-les-attaques-ddos-avec-nginx-fail2ban
+	Batch:
+		Scrape FFTri:
+			- Scrape
+			- Re-scrape for website
+			- Process
+			- Update DB
+			- Dupliquer la course quand multiformat ou multi discipline
+		Scrapping:
+			- FFA & FFTri
+			- Update DB
+			- Script auto-update (all but claimed event)
+			- Triggered by GitHub action
+			- Run on AWS EC2 instance
+			- Once a month : Every website : Raw
+			- Each link : Detailed → Process → Update DB
+		Envoyer un email une semaine après la fin de la course:
+			- statistiques de fréquentation
+		Virement automatique après la clôture des inscriptions:
+		Stripe data:
+			- CA
+			- Bénéf
+		Analytics data:
+			- Numbers of apply
+			- Numbers of users
+			- Numbers of events
+			- Numbers of events shown
+	Club:
+		- Video demo pour la landing club
+		- Carte interactive avec les lieux entrainement
+		- Claim club
+		- Lien administration du club dans profile
+		Service : Boutique club:
+			- Plusieurs niveaux de qualité
+			- Précommande pour les minimum requis
+			- Payement en ligne ou non
+			- Articles gérés par le club
+			- Proposer design de tenus (Outsourcing Fiverr)
+		Service : Google rich snippets:
+			- https://schema.org/SportOrganization
+		Service : Gestion des adhérents:
+		Service : Gestion des inscriptions:
+	About:
+		Communiquer sur la durée de réclamation:
+			- Prise en charge dans l'heure
+			- Correction
+			- Afficher répartition (ex : <1h : 84% ; 1h-24h : 12% ; >24h : 4%)
+	Merchandising:
+		- Boutique
+		- Choix fournisseur
+		- Inscription douane
+		- Code promo limité sortie vidéo (FOMO)
+		- Options "commande" dans "profile"
+		- Pré-order
+		- Lien achat en live
+		- Editions limités
+		- Partenariat avec artistes Instagram
+		- Avataaars t-shirt
+		- T-shirt + chaussettes de running design
+SOCIAL:
+	Network:
+		antoine.kahlouche.fr:
+			- Présentation
+			- Redirection social
+			- Contact
+		GitHub:
+			- Code
+		Facebook:
+			- Repost live chat
+		Instagram:
+			- Daily stories
+			- Lifestyle vrac daily
+		LinkedIn:
+			- Technique from live chat
+			- Business from live chat
+		Strava:
+			- Sport
+		Tiktok:
+			- Make fun of me from live/video
+		Twitch:
+			- Live
+		Twitter:
+			- Share
+			- Annoncement
+		YouTube:
+			- Video Vlog decouverte (voyage, Paris ...)
+			- Video developpment (ex: Matt D'Avella, Florent Tavernier ...)
+	Live:
+		Ré-organiser GitHub repo:
+			- live
+				- checklist per live
+				- FAQ tech
+			- r4ce-backend (private express.js)
+			- r4ce-frontend (public vue.js & mirage.js)
+			- r4ce-server (private)
+			- /doc
+		Story circle:
+			YOU [ORDER] Confort zone:
+			   - Establish the protagonist
+			   - Establish the world
+			   - Pull requests
+			NEED [ORDER] Need or desire:
+			   - Explication de l'idée avec maquette
+			GO [CHAOS] Unfamiliar situation:
+			   - Find a solution (spagetti code)
+			SEARCH [CHAOS] Adaptation:
+			   - Find a better solution (refactoring)
+			FIND [CHAOS] Get what they wanted:
+			   - Changes are for the better
+			   - Test
+			TAKE [CHAOS] But pay a price:
+			   - Derniers petits bugs
+			RETURN [ORDER] Return to comfort:
+			   - Commit & push
+			CHANGE [ORDER] Having changed:
+			   - Nouvelle situation de l'app
+			   - FAQ Tech & business
+		Idées:
+			- Sponso gratos pour entreprises amis ou payante avec entreprise (si vous achetez chez eux, vous payer moins cher, ils gagnent plus d'argent, je récupère des plus gros cadeaux)
+			- Créer des choses pour amis/célébrités (Céline logo, decover, inthepanda, vidéo ...)
+			- Jouer
+			- Développer / designer / maqueting
+			- Bricolage
+			- Chill
+			- Code kata
+			- Side project
+			- R4CE news
+			- R4CE Chiffres de la semaine
+			- R4CE How to
+			- R4CE Unboxing & giveaway
+			- R4CE Win a free race entry
+			- R4CE FAQ Utilisation de R4CE
+			- Shirt & stocks design 4/an
+			- Élaboration pub 12/an
+			- Visionnage vidéo première 40/an
+			- Live conding / designer front-end
+			- Live conding side project / code kata
+			- Bricolage DIY
+			- Jouer
+			- Chill
+			- Projects news / chiffres
+			- Unboxing & giveaway & Free race entry
+			- Créer des choses pour amis/célébrités (Céline logo, decover, inthepanda, vidéo ...)
+	Idée vidéo YouTube:
+		- Pro on a race (CNC)
+		- Publicité pour R4CE
+		- Product versus
+		- Product review
+		- How to
+		- Vlog
+	Patreon tier:
+		1 THE COMMUNITY:
+		   - Discord and color for each tiers
+		   - Answer polls
+		   - Live Q&A chill game weekly
+		   - Backstage vlog
+		   - Bilan annuel
+		   - Access to merch
+		2 THE PRODUCER:
+		   - Credit in video (Patronizer)
+		5 THE EPICUREAN:
+		   - Ad free full content podcast (director's cut)
+		10 THE PLAYER:
+		   - Loterie dédicace
+		15 THE CURIOUS:
+		   - Submit question for polls
+		   - Priority Q&A (post 3 questions in advence)
+		25 THE IMPATIENT:
+		   - Early access video & podcast (once ready)
+		50 THE AVID:
+		   - Dropbox access read only
+		   - Uncut audio
+		   - Uncut video
+		   - Notes (fiches)
+		100 THE LUCKY ONE:
+		   - Dédicace all guests
+		   - Discord audio and game on live
+		1000 THE SPONSOR (1 spot & validation):
+		   - 30s promotion at start video
+ACQUISITION:
+	Social and display ads https://youtu.be/CungwuUQKZo?t=251:
+		- Publicité Facebook
+		- Publicité Instagram
+		- Publicité LinkedIn
+	Viral marketing https://youtu.be/CungwuUQKZo?t=441:
+	Public relations (PR) https://youtu.be/CungwuUQKZo?t=557:
+		- Article dans triathlon magazine
+		- Article dans Courbevoie mag
+		- Interview Radio
+		- Plateau TV
+	PR inconventionnelles https://youtu.be/CungwuUQKZo?t=692:
+		- Organiser course
+		- Créer box limitée (bière, t-shirt, ...)
+	Search engine marketing (SEM) https://youtu.be/CungwuUQKZo?t=793:
+		- Google Ads
+		- Google Ads temporaire sur un gros événement (ex: marathon de Paris)
+	Pubs offline https://youtu.be/CungwuUQKZo?t=915:
+		- Pub TV pendant le tour de France
+		- Flyers lors d'évènement sportif
+		- Sticker voiture perso
+	Search engine optimization (SEO) https://youtu.be/CungwuUQKZo?t=1031:
+		- Meta tag
+		- Sitemap
+		- Snippets Google
+		- Blog posts avec mots clefs
+	Content marketing https://youtu.be/CungwuUQKZo?t=1218:
+		- Écriture guide organisation épreuve
+		- Inciter sportif amateur à raconter leur histoire → blog post
+		- Podcast sportif pro
+		- LinkedIn vidéo création R4CE
+		- YouTube vidéo de test de matériel
+		- YouTube vidéo de couverture d'évènement
+		- YouTube vidéo de séance
+		- YouTube vidéo historique d'un produit/athlète renommé
+		- Live YouTube (nouveautés, tuto, FAQ...) → segmenté et insérer dans FAQ du site avec des liens timecodés
+		- Newsletter avec infos du live
+	Email marketing https://youtu.be/CungwuUQKZo?t=1341:
+		- Newsletter
+	Engineering as marketing https://youtu.be/CungwuUQKZo?t=1461:
+		- Maxi checklist pour les épreuves
+		- Checklist runner, triathlete, trail ...
+	Relations blogueurs/blogueuses https://youtu.be/CungwuUQKZo?t=1599:
+		- Influencer Youtubeur
+		- Sponsoriser un humoriste pour un sketch/court métrage sur le sport
+	Partenariats https://youtu.be/CungwuUQKZo?t=1813:
+		- Lister prestataires de services
+		- Guest post comme IG@thechrisdo
+	Sales en direct https://youtu.be/CungwuUQKZo?t=1969:
+		- Au téléphone
+		- Face à face
+	Programmes d'affiliation https://youtu.be/CungwuUQKZo?t=2244:
+		- Redistribuer marge aux utilisateurs qui apportent un organisateur
+	Grossir grâce aux plateformes existantes https://youtu.be/CungwuUQKZo?t=2343:
+		- Facebook page (pro) : Avancement
+		- LinkedIn (perso) : Tech & Business subject
+		- Twitter (pro) : Answer questions
+		- YouTube (pro) : Video & Live
+		- Strava (perso)
+		- Instagram (pro) : Daily & Backstage
+	Salons https://youtu.be/CungwuUQKZo?t=2539:
+		- Salon du running à Paris (avec écran + Raspberry pi pour rechercher sur place)
+	Événements offline https://youtu.be/CungwuUQKZo?t=2717:
+		- Run Swift retransmit en live
+	Prise de parole en public https://youtu.be/CungwuUQKZo?t=2855:
+	Bâtir une communauté https://youtu.be/CungwuUQKZo?t=3000:
+		- Discord pour les épreuves
+		- Discord pour les clubs
+		- Discord pour les sportifs
+		- Communauté de modérateurs (gâter avec des goodies)
+		- Discord pour les modérateurs
