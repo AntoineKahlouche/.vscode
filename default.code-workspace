@@ -4,12 +4,12 @@
 
 		{ "name": "🔴 FRONTEND", "path": "../r4ce-frontend" },
 		{ "name": "🔵 BACKEND", "path": "../r4ce-backend" },
-		{ "name": "⚫ WORKSPACE", "path": "../r4ce-workspace" }
-		// { "name": "⚪ ENVIRONMENT", "path": "../r4ce-prod" },
-		// { "name": "🟢 BATCH", "path": "../r4ce-batch" },
-		// { "name": "🟡 MAP", "path": "../r4ce-map" },
+		{ "name": "⚫ WORKSPACE", "path": "../r4ce-workspace" },
+		// { "name": "ENVIRONMENT", "path": "../r4ce-prod" },
+		// { "name": "BATCH", "path": "../r4ce-batch" },
+		// { "name": "MAP", "path": "../r4ce-map" },
 		// { "name": "R4CE", "path": "../r4ce" },
-		// { "name": "Code", "path": ".." }
+		{ "name": "CODE", "path": ".." }
 	],
 	"extensions": {
 		"recommendations": [
@@ -31,33 +31,6 @@
 			"octref.vetur",
 			"tomoki1207.pdf",
 			"redhat.vscode-yaml"
-		]
-	},
-	"launch": {
-		// https://code.visualstudio.com/docs/nodejs/debugging-recipes
-		"version": "0.2.0",
-		"configurations": [
-			{
-				"name": "Docker",
-				"type": "node",
-				"request": "attach",
-				"port": 9229,
-				"address": "localhost",
-				"localRoot": "${workspaceFolder:🔵 BACKEND}",
-				"remoteRoot": "/app",
-				"protocol": "inspector",
-				"restart": true
-			},
-			{
-				"name": "Mocha",
-				"type": "node",
-				"request": "launch",
-				"stopOnEntry": false,
-				"program": "${workspaceFolder:🔵 BACKEND}/node_modules/mocha/bin/_mocha",
-				"cwd": "${workspaceFolder:🔵 BACKEND}",
-				"runtimeExecutable": null,
-				"args": ["${file}", "--no-timeout"]
-			}
 		]
 	},
 	"settings": {
