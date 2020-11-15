@@ -9,7 +9,7 @@
 		// { "name": "BATCH", "path": "../r4ce-batch" },
 		// { "name": "MAP", "path": "../r4ce-map" },
 		// { "name": "R4CE", "path": "../r4ce" },
-		{ "name": "CODE", "path": ".." }
+		// { "name": "CODE", "path": ".." },
 	],
 	"extensions": {
 		"recommendations": [
@@ -27,7 +27,6 @@
 			"zhuangtongfa.material-theme",
 			"esbenp.prettier-vscode",
 			"humao.rest-client",
-			"fabiospampinato.vscode-todo-plus",
 			"octref.vetur",
 			"tomoki1207.pdf",
 			"redhat.vscode-yaml"
@@ -118,7 +117,7 @@
 		"todo.timekeeping.finished.enabled": false,
 
 		"window.title": "${rootName}${separator}${activeEditorMedium}",
-		"window.zoomLevel": 1,
+		"window.zoomLevel": 2,
 
 		"workbench.iconTheme": "material-icon-theme",
 		"workbench.colorTheme": "One Dark Pro",
