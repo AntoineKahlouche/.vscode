@@ -4,7 +4,7 @@
 
 		{ "name": "🔴 FRONTEND", "path": "../r4ce-frontend" },
 		{ "name": "🔵 BACKEND", "path": "../r4ce-backend" },
-		{ "name": "⚫ WORKSPACE", "path": "../r4ce-workspace" },
+		{ "name": "⚫ WORKSPACE", "path": "../r4ce-workspace" }
 		// { "name": "ENVIRONMENT", "path": "../r4ce-prod" },
 		// { "name": "BATCH", "path": "../r4ce-batch" },
 		// { "name": "MAP", "path": "../r4ce-map" },
@@ -31,104 +31,5 @@
 			"tomoki1207.pdf",
 			"redhat.vscode-yaml"
 		]
-	},
-	"settings": {
-		"breadcrumbs.enabled": false,
-
-		"editor.folding": false,
-		"[todo]": {
-			"editor.folding": true
-		},
-		"editor.minimap.enabled": false,
-		"editor.multiCursorModifier": "ctrlCmd",
-		"editor.snippetSuggestions": "top",
-		"editor.formatOnType": true,
-		"editor.formatOnSave": true,
-		"editor.detectIndentation": false,
-		"editor.acceptSuggestionOnEnter": "on",
-		"editor.renameOnType": false,
-		"editor.insertSpaces": false,
-		"editor.quickSuggestions": true,
-		"editor.suggestOnTriggerCharacters": false,
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-
-		"explorer.compactFolders": false,
-		"explorer.decorations.colors": false,
-		"explorer.confirmDragAndDrop": false,
-		"explorer.confirmDelete": false,
-
-		"extensions.ignoreRecommendations": true,
-
-		"files.associations": {
-			"*.mjml": "html"
-		},
-		"files.insertFinalNewline": true,
-		"files.autoSave": "afterDelay",
-		"files.autoSaveDelay": 1000,
-		"files.exclude": {
-			// "**/.git*": true,
-			"**/node_modules": true,
-			"init.js": true,
-			"**/package-lock.json": true
-		},
-
-		"git.ignoreLimitWarning": true,
-		"git.enableSmartCommit": true,
-		"git.confirmSync": false,
-		"git.autofetch": true,
-		"git.decorations.enabled": false,
-
-		"highlight.regexes": {
-			"(//|<!--|;|#)( ?TODO)( ?:?.*)": [
-				{
-					"backgroundColor": "#ffcc00",
-					"color": "#1f1f1f"
-				},
-				{
-					"backgroundColor": "#ffcc00",
-					"color": "#1f1f1f",
-					"fontWeight": "bold"
-				},
-				{
-					"backgroundColor": "#ffcc00",
-					"color": "#1f1f1f"
-				}
-			]
-		},
-
-		"javascript.updateImportsOnFileMove.enabled": "never",
-
-		"material-icon-theme.hidesExplorerArrows": false,
-		"material-icon-theme.folders.theme": "none",
-
-		"mdb.sendTelemetry": false,
-		"mdb.confirmRunAll": false,
-
-		"prettier.printWidth": 999999,
-		"prettier.tabWidth": 4,
-		"prettier.useTabs": true,
-		"prettier.semi": false,
-		"prettier.singleQuote": false,
-		"prettier.trailingComma": "none",
-		"prettier.bracketSpacing": true,
-		"prettier.arrowParens": "avoid",
-
-		"todo.file.view.expanded": false,
-		"todo.timekeeping.finished.enabled": false,
-
-		"window.title": "${rootName}${separator}${activeEditorMedium}",
-		"window.zoomLevel": 2,
-
-		"workbench.iconTheme": "material-icon-theme",
-		"workbench.colorTheme": "One Dark Pro",
-		"workbench.editor.showTabs": true,
-		"workbench.statusBar.visible": true,
-		"workbench.editor.enablePreview": true,
-		"workbench.editor.enablePreviewFromQuickOpen": true,
-		"workbench.editor.focusRecentEditorAfterClose": false,
-		"workbench.list.openMode": "singleClick",
-		"workbench.tree.indent": 40,
-		"workbench.editor.labelFormat": "short",
-		"liveServer.settings.multiRootWorkspaceName": "Code"
 	}
 }
